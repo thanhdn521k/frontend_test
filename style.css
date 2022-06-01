@@ -1,0 +1,82 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .sidebar {
+    position: fixed;
+    left: 0;
+    width: 150px;
+    height: 100%;
+    background: #191718;
+  }
+  
+  .sidebar ul a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 41px;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    padding-left: 16px;
+    box-sizing: border-box;
+    
+    border-bottom : 0.5px solid #5c5c5c;
+  }
+
+  .footer {
+      position: fixed;
+      color: black;
+      left: 0;
+      bottom: 0;
+      width: 1768px;
+      border-top: 1px solid black;
+      padding-left: 279px;
+      padding-top : 30px;
+      padding-bottom : 30px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19px;
+  }
+
+  .logo img{
+      width: 310px;
+      height: auto;
+      margin-left : 150px;
+      padding-left: 729px;
+      padding-top : 30px;
+      padding-right: 729px;
+  }
+
+  .content1 {
+      background-color: #e4dfdf;
+      height: 210px;
+      width: auto;
+      margin-left: 279px;
+      margin-right: 129px;
+  }
+
+  .content1 .content1-1{
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    padding-top: 38px;
+  }
+
+  .content1 .content1-2{
+    justify-content: center;
+    font-weight: 400;
+    line-height: 18.85px;
+    padding-top: 18px;
+    padding-left: 269px;
+    padding-right: 269px;
+    text-align: center;
+  }
